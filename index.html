@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '206447889';
+    var serviceWorkerVersion = '2460684889';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -51,7 +51,7 @@
     }
 </style>
 </head>
-<body>
+<body style="overflow: hidden">
   <div id="loading_indicator" class="container">
     <img class="indicator" src="./assets/loading.gif" />
   </div>
@@ -70,14 +70,12 @@
     });
   </script>
   <script>
-    window.onload = function () {
-      setTimeout(function () {
-        var loadingIndicator =                 document.getElementById("loading_indicator");
-        if (loadingIndicator) {
-          loadingIndicator.remove();
-        }
-      }, 10000);
-};
+    window.addEventListener(
+      "flutter-first-frame",
+      function() {
+      document.getElementById("indicatorContainer").remove();
+      }
+      );
   </script>
 </body>
 </html>

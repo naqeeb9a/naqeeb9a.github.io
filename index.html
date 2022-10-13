@@ -14,6 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
+  <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -22,23 +23,38 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="webapp">
+  <meta name="apple-mobile-web-app-title" content="restomation">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>webapp</title>
+  <title>Restomation</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '4170766415';
+    var serviceWorkerVersion = null;
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex; /* Default Axis is X*/
+      justify-content: center; /* Main Axis */
+      align-items: center; /* Cross Axis */
+    }
+    .indicator{
+      width: 50vw;
+    }
+</style>
 </head>
 <body>
+  <div id="loading_indicator" class="container">
+    <img class="indicator" src="./assets/loading.gif" />
+  </div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -52,6 +68,16 @@
         return appRunner.runApp();
       });
     });
+  </script>
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator =                 document.getElementById("loading_indicator");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000);
+};
   </script>
 </body>
 </html>

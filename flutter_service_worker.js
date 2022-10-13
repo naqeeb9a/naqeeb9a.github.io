@@ -3,16 +3,16 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "681089d1545aee27a7636b50d3a4ea25",
+  "assets/AssetManifest.json": "500b26fd6fbe12982438be5f4e5f01ac",
 "assets/assets/defaultResturantImage.png": "d80410f121fa12300a366023a47a0a7d",
 "assets/assets/emptyList.json": "83854d616f55bd22ca63c91a17226f6d",
 "assets/assets/loader.json": "1fff2f186cbdb39c0478402db9c3f8a8",
-"assets/assets/Restomation%2520Logo.jpeg": "1122cbd183e120e5eee38af1c2ecf21c",
 "assets/assets/resturant.json": "095408858bd861c56a576bc33e16eef5",
+"assets/assets/splash.png": "f87ddb45c903f935d5480958cbb45b86",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/loading.gif": "0438ecb3741b901931d63a26bdbf69eb",
-"assets/NOTICES": "5f8d08343ce7c9c42dc5cb3d1a7ccef9",
+"assets/NOTICES": "bc30cad30b5239435cf38cbbff4f6b20",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
@@ -28,10 +28,20 @@ const RESOURCES = {
 "icons/Icon-512.png": "478956e966c686bbf09a0467c2de4c4a",
 "icons/Icon-maskable-192.png": "291598ff76dd6af8c89b1c3035917b26",
 "icons/Icon-maskable-512.png": "478956e966c686bbf09a0467c2de4c4a",
-"index.html": "08268859998a179e698398efa0d14e09",
-"/": "08268859998a179e698398efa0d14e09",
-"main.dart.js": "a7d11643cac39dfd76f66f041f55d131",
+"index.html": "fad14991b856d1bb9e1d5358caa9cd8f",
+"/": "fad14991b856d1bb9e1d5358caa9cd8f",
+"main.dart.js": "fd3aa2a52f267eed5b00daf91958d8f6",
 "manifest.json": "8a0d8d610887ef62685b34f5fb9cb653",
+"splash/img/dark-1x.png": "cd40d342d1cea02fa6360b089037d62c",
+"splash/img/dark-2x.png": "c68e7845048f7ceb496af6ef788f903c",
+"splash/img/dark-3x.png": "e75a993ade8d0dc4a9831eebf0d3119c",
+"splash/img/dark-4x.png": "4195b680e5138896de8630bd8c0378f9",
+"splash/img/light-1x.png": "cd40d342d1cea02fa6360b089037d62c",
+"splash/img/light-2x.png": "c68e7845048f7ceb496af6ef788f903c",
+"splash/img/light-3x.png": "e75a993ade8d0dc4a9831eebf0d3119c",
+"splash/img/light-4x.png": "4195b680e5138896de8630bd8c0378f9",
+"splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
+"splash/style.css": "3e8699dd65a865ff991ec5b47a93643d",
 "version.json": "399c2a5a175995698167491d7f08a99a"
 };
 

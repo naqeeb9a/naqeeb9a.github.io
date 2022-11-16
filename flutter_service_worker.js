@@ -3,12 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "62e9c948e342f5707ab085b83fc1adc0",
-"assets/assets/defaultResturantImage.png": "d80410f121fa12300a366023a47a0a7d",
+  "assets/AssetManifest.json": "dac6c391e910ac2b472b81b36dfca36f",
 "assets/assets/emptyList.json": "83854d616f55bd22ca63c91a17226f6d",
 "assets/assets/loader.json": "1fff2f186cbdb39c0478402db9c3f8a8",
 "assets/assets/resturant.json": "095408858bd861c56a576bc33e16eef5",
 "assets/assets/splash.png": "f87ddb45c903f935d5480958cbb45b86",
+"assets/assets/upload_logo.jpg": "da68b9173f083294c97a5e5ebab9e61a",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/loading.gif": "0438ecb3741b901931d63a26bdbf69eb",
@@ -33,9 +33,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "478956e966c686bbf09a0467c2de4c4a",
 "icons/Icon-maskable-192.png": "291598ff76dd6af8c89b1c3035917b26",
 "icons/Icon-maskable-512.png": "478956e966c686bbf09a0467c2de4c4a",
-"index.html": "ebe9c69c9911f7bc93c3b74e056c08d0",
-"/": "ebe9c69c9911f7bc93c3b74e056c08d0",
-"main.dart.js": "b70047b1c6cbf9b4c2d4bab16b121083",
+"index.html": "2c1d4a16203ce80c50b3ac561eb462ed",
+"/": "2c1d4a16203ce80c50b3ac561eb462ed",
+"main.dart.js": "5af1cc98e1a302eb2e2b5ea3f3337d1d",
 "manifest.json": "8a0d8d610887ef62685b34f5fb9cb653",
 "version.json": "399c2a5a175995698167491d7f08a99a"
 };
